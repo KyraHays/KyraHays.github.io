@@ -1,0 +1,23 @@
+.rubik {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 800;
+}
+
+.img-fluid {
+  border-radius: 20px;
+}
+.bg-green {
+  background-color: olive;
+}
+
+.br-20 {
+  border-radius: 20px;
+}
+
+.bg-wheat {
+  background-color: wheat;
+}
+
+.td-none {
+  text-decoration: none;
+}
