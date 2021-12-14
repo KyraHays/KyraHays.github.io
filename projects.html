@@ -21,50 +21,62 @@
   </head>
   <body>
      
+  <div id="page-container">
+    <div id="content-wrap">
+
     <div class="container-fluid">
 
     <div class="row">
         <ul class="nav bg-green" style="font-size: large; padding: 20px;">
   
   
-          <li class="nav-item col-2 rubik">
+          <li class="nav-item col-1 rubik">
             <a class="nav-link active" style="color: wheat;" aria-current="page" href="index.html">Home</a>
           </li>
   
-  
-  
-          <li class="nav-item col-2 rubik">
+          <li class="nav-item col-1 rubik">
             <a class="nav-link" style="color: wheat;" href="projects.html">Projects</a>
           </li>
-  
-  
-  
-          <li class="nav-item col-2 rubik">
-            <a class="nav-link" style="color: wheat;" href="#">Contact Me</a>
-          </li>
-  
-  
-  
-          <a class="col-1 offset-4" style="color: wheat;" href="https://www.linkedin.com/in/kyra-hays-b0247a206/">
+
+          <a class="col-1 offset-8" style="color: wheat; font-size: 30px;" href="https://www.linkedin.com/in/kyra-hays-b0247a206/">
             <i class="bi bi-linkedin"></i>
           </a>
   
-          <a class="col-1" style="color: wheat;" href="https://github.com/KyraHays">
+          <a class="col-1" style="color: wheat; font-size: 30px;" href="https://github.com/KyraHays">
             <i class="bi bi-github"></i>
           </a>
   
         </ul>
     </div>
 
-      <div class="row align-items-center">
-          <img class="col-4" style="padding: 20px;" src="IMG_map.jpeg" alt="">
+      <div class="row description justify-content-around">
+          <p class="col-3 rubik bg-wheat" style="color: olive;">This map tracks the bus route from MIT to Harvard. It shows each individual stop.</p>
+          <p class="col-3 rubik bg-wheat" style="color: olive;">This factory randomly places a pacman at the click of the button. The pacman will then start randomly moving across the screen once "Start Game" is pressed.</p>
+          <p class="col-3 rubik bg-wheat" style="color: olive;">This set of eyes will follow your cursor around the screen.</p>
+        </div>
+
+      <div class="row justify-content-around">
+          <img class="col-3  br-green" style="padding: 15px;" src="IMG_map.jpeg" alt="">
+          <img class="col-3  br-green" style="padding: 15px;" src="IMG_pacmen.jpeg" alt="">
+          <img class="col-3  br-green" style="padding: 15px;" src="IMG_eyes.jpeg" alt="">
       </div>
 
-      <div class="row align-items-center"
-          <p class="col-5 rubik bg-green br-20">This map tracks bus routes from MIT to Harvard.</p>
-          <a class="col-5 rubik text-center td-none" style="padding: 10px; color: olive;" href="https://github.com/KyraHays/Bus_Stop_Animation" class="link-primary">Check out the repository</a>
-      </div>
+      <div class="row justify-content-around">
+        <a class="col-3 rubik text-center td-none " style="padding: 10px; color: olive;" href="https://github.com/KyraHays/Bus_Stop_Animation" class="link-primary">
+          <i class="bi bi-link" style="font-size: 40px;"></i>
+        </a>
 
+        <a class="col-3 rubik text-center td-none" style="padding: 10px; color: olive;" href="https://github.com/KyraHays/Pacmen-Factory" class="link-primary">
+          <i class="bi bi-link" style="font-size: 40px;"></i>
+        </a>
+
+        <a class="col-3 rubik text-center td-none" style="padding: 10px; color: olive;" href="https://github.com/KyraHays/eye-movement" class="link-primary">
+          <i class="bi bi-link" style="font-size: 40px;"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
@@ -73,4 +85,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
   </body>
+
+  <footer id=footer class="row bg-light text-center text-lg-start">
+    <!-- Copyright -->
+    <div class="col-12 text-center p-3" style="background-color: olive;">
+      © 2021 Copyright: Kyra Hays
+    </div>
+    <!-- Copyright -->
+  </footer>
+
 </html>
